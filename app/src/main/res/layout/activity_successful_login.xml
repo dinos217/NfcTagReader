@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.loginnfcapp.SuccessfulLoginActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="14dp"
+        android:id="@+id/loginMessage_id"
+        android:background="#ffff"
+        android:textSize="28sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:id="@+id/username"
+        android:textSize="32sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:background="#ffff"
+        android:textColor="#FF616060"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="42dp"
+        android:hint="Enter Unlock Password here"
+        android:textAlignment="center"
+        android:id="@+id/user_pass"
+        android:layout_gravity="center" />
+
+    <TextView
+        style="@android:style/Widget.Button"
+        android:layout_width="159dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Touch your phone to NFC tag to unlock the door"
+        android:textColor="#FFFF" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/closed_door"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/imgView" />
+
+</LinearLayout>
